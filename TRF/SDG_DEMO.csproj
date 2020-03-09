@@ -741,10 +741,4 @@
     </VisualStudio>
   </ProjectExtensions>
   <Import Project="..\packages\Grpc.Core.1.18.0-pre1\build\net45\Grpc.Core.targets" Condition="Exists('..\packages\Grpc.Core.1.18.0-pre1\build\net45\Grpc.Core.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>Questo progetto fa riferimento a uno o più pacchetti NuGet che non sono presenti in questo computer. Usare lo strumento di ripristino dei pacchetti NuGet per scaricarli. Per altre informazioni, vedere http://go.microsoft.com/fwlink/?LinkID=322105. Il file mancante è {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Grpc.Core.1.18.0-pre1\build\net45\Grpc.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grpc.Core.1.18.0-pre1\build\net45\Grpc.Core.targets'))" />
-  </Target>
 </Project>
