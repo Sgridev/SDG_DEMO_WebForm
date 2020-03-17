@@ -692,6 +692,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="obj\" />
+    <Folder Include="Web\Indirizzi\" />
     <Folder Include="Web\UserFiles\" />
     <Folder Include="Web\Utenti\Files\" />
   </ItemGroup>

@@ -245,6 +245,7 @@
                                             <div id="tabPanel">
                                                 <asp:Button CssClass="tabDisabled" ID="ButtonRuoli" runat="server" OnClientClick="hideSubBrowser();" OnClick="ButtonRuoli_Click" UseSubmitBehavior="false"></asp:Button>
                                                 <asp:Button CssClass="tabDisabled" ID="ButtonProcessoAutorizzativo" runat="server" OnClientClick="viewSubBrowser('PAU');return false;" ></asp:Button>
+                                                 <asp:Button CssClass="tabDisabled" ID="ButtonIndirizzi" runat="server"></asp:Button>
                                             </div>
 
                                             <!-- Pannello Ruoli Utente -->

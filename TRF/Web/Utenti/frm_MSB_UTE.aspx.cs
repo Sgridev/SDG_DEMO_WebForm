@@ -154,6 +154,8 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
             ButtonDisconnectAll.Text = GetValueDizionarioUI("DISCONNETTI_TUTTI");
             ButtonProcessoAutorizzativo.Text = GetValueDizionarioUI("PROCESSO_AUTORIZZATIVO");
             ButtonProcessoAutorizzativo.ToolTip = GetValueDizionarioUI("PROCESSO_AUTORIZZATIVO");
+            ButtonIndirizzi.Text = GetValueDizionarioUI("INDIRIZZI");
+            ButtonIndirizzi.ToolTip = GetValueDizionarioUI("INDIRIZZI");
 
             Clienti objClienti = new Clienti();
             if (dizionarioPermessi["ADM"] == objUtilita.AccessNone)

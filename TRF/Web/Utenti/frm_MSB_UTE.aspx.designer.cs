@@ -9,8 +9,9 @@
 
 
 
-public partial class Web_Utenti_frm_MSB_UTE {
-    
+public partial class Web_Utenti_frm_MSB_UTE
+{
+
     /// <summary>
     /// Controllo Header.
     /// </summary>
@@ -19,7 +20,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlHead Header;
-    
+
     /// <summary>
     /// Controllo form1.
     /// </summary>
@@ -28,7 +29,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-    
+
     /// <summary>
     /// Controllo Top.
     /// </summary>
@@ -37,7 +38,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::GestioneUtenti.Web.Common.Top Top;
-    
+
     /// <summary>
     /// Controllo Menu.
     /// </summary>
@@ -46,7 +47,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::GestioneUtenti.Web.Common.Menu Menu;
-    
+
     /// <summary>
     /// Controllo LabelTitolo.
     /// </summary>
@@ -55,7 +56,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelTitolo;
-    
+
     /// <summary>
     /// Controllo btnExport.
     /// </summary>
@@ -64,7 +65,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button btnExport;
-    
+
     /// <summary>
     /// Controllo toolbar.
     /// </summary>
@@ -73,7 +74,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl toolbar;
-    
+
     /// <summary>
     /// Controllo imgViewSearch.
     /// </summary>
@@ -82,7 +83,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl imgViewSearch;
-    
+
     /// <summary>
     /// Controllo ButtonDisconnectAll.
     /// </summary>
@@ -91,7 +92,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonDisconnectAll;
-    
+
     /// <summary>
     /// Controllo ButtonFiltroUtente.
     /// </summary>
@@ -100,7 +101,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonFiltroUtente;
-    
+
     /// <summary>
     /// Controllo ButtonUploadUtenti.
     /// </summary>
@@ -109,7 +110,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonUploadUtenti;
-    
+
     /// <summary>
     /// Controllo ButtonExportUtenti.
     /// </summary>
@@ -118,7 +119,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonExportUtenti;
-    
+
     /// <summary>
     /// Controllo ButtonInviaResetPwd.
     /// </summary>
@@ -127,7 +128,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonInviaResetPwd;
-    
+
     /// <summary>
     /// Controllo ButtonNuovoUtente.
     /// </summary>
@@ -136,7 +137,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlButton ButtonNuovoUtente;
-    
+
     /// <summary>
     /// Controllo btnRefresh.
     /// </summary>
@@ -145,7 +146,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button btnRefresh;
-    
+
     /// <summary>
     /// Controllo hCerca.
     /// </summary>
@@ -154,7 +155,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputHidden hCerca;
-    
+
     /// <summary>
     /// Controllo headerBrowser.
     /// </summary>
@@ -163,7 +164,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl headerBrowser;
-    
+
     /// <summary>
     /// Controllo DropDownListRecordPagina.
     /// </summary>
@@ -172,7 +173,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList DropDownListRecordPagina;
-    
+
     /// <summary>
     /// Controllo LabelRecPagina.
     /// </summary>
@@ -181,7 +182,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelRecPagina;
-    
+
     /// <summary>
     /// Controllo LabelElemSel.
     /// </summary>
@@ -190,7 +191,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelElemSel;
-    
+
     /// <summary>
     /// Controllo TextCountSel.
     /// </summary>
@@ -199,7 +200,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputText TextCountSel;
-    
+
     /// <summary>
     /// Controllo LabelNroRecord.
     /// </summary>
@@ -208,7 +209,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelNroRecord;
-    
+
     /// <summary>
     /// Controllo ScriptManager.
     /// </summary>
@@ -217,7 +218,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.ScriptManager ScriptManager;
-    
+
     /// <summary>
     /// Controllo EffettuaRefresh.
     /// </summary>
@@ -226,7 +227,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputHidden EffettuaRefresh;
-    
+
     /// <summary>
     /// Controllo hPanelToRefresh.
     /// </summary>
@@ -235,7 +236,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputHidden hPanelToRefresh;
-    
+
     /// <summary>
     /// Controllo hWhereClause.
     /// </summary>
@@ -244,7 +245,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputHidden hWhereClause;
-    
+
     /// <summary>
     /// Controllo fieldSelected.
     /// </summary>
@@ -253,7 +254,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputHidden fieldSelected;
-    
+
     /// <summary>
     /// Controllo GridViewUtenti.
     /// </summary>
@@ -262,7 +263,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::MyGridViewLibrary.MyGridView GridViewUtenti;
-    
+
     /// <summary>
     /// Controllo ObjectDataSourceUtenti.
     /// </summary>
@@ -271,7 +272,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSourceUtenti;
-    
+
     /// <summary>
     /// Controllo hIdCliente.
     /// </summary>
@@ -280,7 +281,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputHidden hIdCliente;
-    
+
     /// <summary>
     /// Controllo hIdUtente.
     /// </summary>
@@ -289,7 +290,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputHidden hIdUtente;
-    
+
     /// <summary>
     /// Controllo ButtonRuoli.
     /// </summary>
@@ -298,7 +299,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonRuoli;
-    
+
     /// <summary>
     /// Controllo ButtonProcessoAutorizzativo.
     /// </summary>
@@ -307,7 +308,16 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonProcessoAutorizzativo;
-    
+
+    /// <summary>
+    /// Controllo ButtonIndirizzi.
+    /// </summary>
+    /// <remarks>
+    /// Campo generato automaticamente.
+    /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Button ButtonIndirizzi;
+
     /// <summary>
     /// Controllo PanelRuoliUtente.
     /// </summary>
@@ -316,7 +326,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Panel PanelRuoliUtente;
-    
+
     /// <summary>
     /// Controllo LabelTitoloRuoloUtente.
     /// </summary>
@@ -325,7 +335,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelTitoloRuoloUtente;
-    
+
     /// <summary>
     /// Controllo ButtonFiltroRuoloUtente.
     /// </summary>
@@ -334,7 +344,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonFiltroRuoloUtente;
-    
+
     /// <summary>
     /// Controllo ButtonNuovoRuoloUtente.
     /// </summary>
@@ -343,7 +353,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonNuovoRuoloUtente;
-    
+
     /// <summary>
     /// Controllo nroRecordRuoliUtente.
     /// </summary>
@@ -352,7 +362,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl nroRecordRuoliUtente;
-    
+
     /// <summary>
     /// Controllo DropDownListRecPaginaRuoloUtente.
     /// </summary>
@@ -361,7 +371,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList DropDownListRecPaginaRuoloUtente;
-    
+
     /// <summary>
     /// Controllo LabelRecPaginaRuoloUtente.
     /// </summary>
@@ -370,7 +380,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelRecPaginaRuoloUtente;
-    
+
     /// <summary>
     /// Controllo GridViewRuoliUtente.
     /// </summary>
@@ -379,7 +389,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::MyGridViewLibrary.MyGridView GridViewRuoliUtente;
-    
+
     /// <summary>
     /// Controllo ObjectDataSourceRuoliUtente.
     /// </summary>
@@ -388,7 +398,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSourceRuoliUtente;
-    
+
     /// <summary>
     /// Controllo PanelAutorizzatiUtente.
     /// </summary>
@@ -397,7 +407,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Panel PanelAutorizzatiUtente;
-    
+
     /// <summary>
     /// Controllo LabelTitoloAutorizzati.
     /// </summary>
@@ -406,7 +416,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelTitoloAutorizzati;
-    
+
     /// <summary>
     /// Controllo ButtonFiltroAutorizzati.
     /// </summary>
@@ -415,7 +425,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonFiltroAutorizzati;
-    
+
     /// <summary>
     /// Controllo ButtonNuovoAutorizzati.
     /// </summary>
@@ -424,7 +434,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonNuovoAutorizzati;
-    
+
     /// <summary>
     /// Controllo nroRecordAutorizzati.
     /// </summary>
@@ -433,7 +443,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl nroRecordAutorizzati;
-    
+
     /// <summary>
     /// Controllo DropDownListRecPaginaAutorizzati.
     /// </summary>
@@ -442,7 +452,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList DropDownListRecPaginaAutorizzati;
-    
+
     /// <summary>
     /// Controllo LabelRecPaginaAutorizzati.
     /// </summary>
@@ -451,7 +461,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelRecPaginaAutorizzati;
-    
+
     /// <summary>
     /// Controllo GridViewAutorizzati.
     /// </summary>
@@ -460,7 +470,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::MyGridViewLibrary.MyGridView GridViewAutorizzati;
-    
+
     /// <summary>
     /// Controllo ObjectDataSourceAutorizzati.
     /// </summary>
@@ -469,7 +479,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSourceAutorizzati;
-    
+
     /// <summary>
     /// Controllo PanelWfAssociati.
     /// </summary>
@@ -478,7 +488,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Panel PanelWfAssociati;
-    
+
     /// <summary>
     /// Controllo labelTitoloWfAssociati.
     /// </summary>
@@ -487,7 +497,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl labelTitoloWfAssociati;
-    
+
     /// <summary>
     /// Controllo ButtonFiltroWfAssociati.
     /// </summary>
@@ -496,7 +506,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonFiltroWfAssociati;
-    
+
     /// <summary>
     /// Controllo ButtonNuovoWfAssociato.
     /// </summary>
@@ -505,7 +515,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonNuovoWfAssociato;
-    
+
     /// <summary>
     /// Controllo nroRecordWfAssociati.
     /// </summary>
@@ -514,7 +524,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl nroRecordWfAssociati;
-    
+
     /// <summary>
     /// Controllo DropDownListRecPaginaWfAssociati.
     /// </summary>
@@ -523,7 +533,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList DropDownListRecPaginaWfAssociati;
-    
+
     /// <summary>
     /// Controllo LabelRecPaginaWfAssociati.
     /// </summary>
@@ -532,7 +542,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelRecPaginaWfAssociati;
-    
+
     /// <summary>
     /// Controllo GridViewWfAssociati.
     /// </summary>
@@ -541,7 +551,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::MyGridViewLibrary.MyGridView GridViewWfAssociati;
-    
+
     /// <summary>
     /// Controllo ObjectDataSourceWfAssociati.
     /// </summary>
@@ -550,7 +560,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSourceWfAssociati;
-    
+
     /// <summary>
     /// Controllo PanelCliAssociati.
     /// </summary>
@@ -559,7 +569,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Panel PanelCliAssociati;
-    
+
     /// <summary>
     /// Controllo labelTitoloCliAssociati.
     /// </summary>
@@ -568,7 +578,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl labelTitoloCliAssociati;
-    
+
     /// <summary>
     /// Controllo ButtonFiltroCliAssociati.
     /// </summary>
@@ -577,7 +587,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonFiltroCliAssociati;
-    
+
     /// <summary>
     /// Controllo ButtonNuovoCliAssociato.
     /// </summary>
@@ -586,7 +596,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonNuovoCliAssociato;
-    
+
     /// <summary>
     /// Controllo nroRecordCliAssociati.
     /// </summary>
@@ -595,7 +605,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl nroRecordCliAssociati;
-    
+
     /// <summary>
     /// Controllo LabelRecPaginaCliAssociati.
     /// </summary>
@@ -604,7 +614,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelRecPaginaCliAssociati;
-    
+
     /// <summary>
     /// Controllo DropDownListRecPaginaCliAssociati.
     /// </summary>
@@ -613,7 +623,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList DropDownListRecPaginaCliAssociati;
-    
+
     /// <summary>
     /// Controllo GridViewCliAssociati.
     /// </summary>
@@ -622,7 +632,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.GridView GridViewCliAssociati;
-    
+
     /// <summary>
     /// Controllo ObjectDataSourceCliAssociati.
     /// </summary>
@@ -631,7 +641,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSourceCliAssociati;
-    
+
     /// <summary>
     /// Controllo PanelCDCPeriodici.
     /// </summary>
@@ -640,7 +650,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Panel PanelCDCPeriodici;
-    
+
     /// <summary>
     /// Controllo labelTitoloCDCPeriodici.
     /// </summary>
@@ -649,7 +659,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl labelTitoloCDCPeriodici;
-    
+
     /// <summary>
     /// Controllo ButtonFiltroCDCPeriodici.
     /// </summary>
@@ -658,7 +668,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonFiltroCDCPeriodici;
-    
+
     /// <summary>
     /// Controllo ButtonNuovoCDCPeriodico.
     /// </summary>
@@ -667,7 +677,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button ButtonNuovoCDCPeriodico;
-    
+
     /// <summary>
     /// Controllo nroRecordCDCPeriodici.
     /// </summary>
@@ -676,7 +686,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl nroRecordCDCPeriodici;
-    
+
     /// <summary>
     /// Controllo LabelRecPaginaCDCPeriodici.
     /// </summary>
@@ -685,7 +695,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelRecPaginaCDCPeriodici;
-    
+
     /// <summary>
     /// Controllo DropDownListRecPaginaCDCPeriodici.
     /// </summary>
@@ -694,7 +704,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList DropDownListRecPaginaCDCPeriodici;
-    
+
     /// <summary>
     /// Controllo GridViewCDCPeriodici.
     /// </summary>
@@ -703,7 +713,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.GridView GridViewCDCPeriodici;
-    
+
     /// <summary>
     /// Controllo ObjectDataSourceCDCPeriodici.
     /// </summary>
@@ -712,7 +722,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSourceCDCPeriodici;
-    
+
     /// <summary>
     /// Controllo SubBrowser0.
     /// </summary>
@@ -721,7 +731,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlIframe SubBrowser0;
-    
+
     /// <summary>
     /// Controllo boxRicercaAvanzata.
     /// </summary>
@@ -730,7 +740,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl boxRicercaAvanzata;
-    
+
     /// <summary>
     /// Controllo LabelCognome.
     /// </summary>
@@ -739,7 +749,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelCognome;
-    
+
     /// <summary>
     /// Controllo txtCognome.
     /// </summary>
@@ -748,7 +758,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputText txtCognome;
-    
+
     /// <summary>
     /// Controllo LabelNome.
     /// </summary>
@@ -757,7 +767,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelNome;
-    
+
     /// <summary>
     /// Controllo txtNome.
     /// </summary>
@@ -766,7 +776,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputText txtNome;
-    
+
     /// <summary>
     /// Controllo LabelCodiceIndividuale.
     /// </summary>
@@ -775,7 +785,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelCodiceIndividuale;
-    
+
     /// <summary>
     /// Controllo txtCodiceIndividuale.
     /// </summary>
@@ -784,7 +794,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputText txtCodiceIndividuale;
-    
+
     /// <summary>
     /// Controllo LabelEmail.
     /// </summary>
@@ -793,7 +803,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelEmail;
-    
+
     /// <summary>
     /// Controllo txtEmail.
     /// </summary>
@@ -802,7 +812,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputText txtEmail;
-    
+
     /// <summary>
     /// Controllo LabelUserId.
     /// </summary>
@@ -811,7 +821,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelUserId;
-    
+
     /// <summary>
     /// Controllo txtUserId.
     /// </summary>
@@ -820,7 +830,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputText txtUserId;
-    
+
     /// <summary>
     /// Controllo LabelPwdInviata.
     /// </summary>
@@ -829,7 +839,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelPwdInviata;
-    
+
     /// <summary>
     /// Controllo txtPwdInviata.
     /// </summary>
@@ -838,7 +848,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList txtPwdInviata;
-    
+
     /// <summary>
     /// Controllo LabelCliente.
     /// </summary>
@@ -847,7 +857,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelCliente;
-    
+
     /// <summary>
     /// Controllo txtCliente.
     /// </summary>
@@ -856,7 +866,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList txtCliente;
-    
+
     /// <summary>
     /// Controllo chkOnline.
     /// </summary>
@@ -865,7 +875,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chkOnline;
-    
+
     /// <summary>
     /// Controllo LabelOnline.
     /// </summary>
@@ -874,7 +884,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelOnline;
-    
+
     /// <summary>
     /// Controllo btnCerca.
     /// </summary>
@@ -883,7 +893,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button btnCerca;
-    
+
     /// <summary>
     /// Controllo footer.
     /// </summary>
@@ -892,7 +902,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl footer;
-    
+
     /// <summary>
     /// Controllo testataModalServizio.
     /// </summary>
@@ -901,7 +911,7 @@ public partial class Web_Utenti_frm_MSB_UTE {
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
     protected global::System.Web.UI.HtmlControls.HtmlGenericControl testataModalServizio;
-    
+
     /// <summary>
     /// Controllo Script.
     /// </summary>
