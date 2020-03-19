@@ -82,6 +82,7 @@ function viewSubBrowser(acronimo) {
                 $('#ButtonProcessoAutorizzativo').removeClass('tabNoSelected');
                 src = '../ProcessoAutorizzativo/frm_MSE_PAU.aspx?ID_TABELLA_PADRE=' + $('#hIdUtente').val() + '&TABELLA_PADRE=UTENTE&CLI_ID_CLIENTE=' + $('#hIdCliente').val() + '&MODALITA=EDIT';
                 break;
+
         }
 
         $('#SubBrowser0').attr('src', src);
@@ -116,4 +117,7 @@ function hideSubBrowser() {
 
     $('#ButtonProcessoAutorizzativo').removeClass('tabSelected');
     $('#ButtonProcessoAutorizzativo').addClass('tabNoSelected');
+
+    $('#ButtonIndirizzi').removeClass('tabSelected');
+    $('#ButtonIndirizzi').addClass('tabNoSelected');
 }

@@ -245,7 +245,7 @@
                                             <div id="tabPanel">
                                                 <asp:Button CssClass="tabDisabled" ID="ButtonRuoli" runat="server" OnClientClick="hideSubBrowser();" OnClick="ButtonRuoli_Click" UseSubmitBehavior="false"></asp:Button>
                                                 <asp:Button CssClass="tabDisabled" ID="ButtonProcessoAutorizzativo" runat="server" OnClientClick="viewSubBrowser('PAU');return false;" ></asp:Button>
-                                                 <asp:Button CssClass="tabDisabled" ID="ButtonIndirizzi" runat="server"></asp:Button>
+                                                <asp:Button CssClass="tabDisabled" ID="ButtonIndirizzi" runat="server" OnClick="ButtonIndirizzi_Click"  UseSubmitBehavior="false"></asp:Button>
                                             </div>
 
                                             <!-- Pannello Ruoli Utente -->
@@ -366,6 +366,20 @@
 
                                             </asp:Panel>
 
+                                            <asp:Panel ID="PanelIndirizzi" runat="server" Visible="true">
+
+                                                <div class="row m-t-15 m-b-15">
+                                                    <div class="col-md-6">
+                                                        <h3 id="H1" runat="server"></h3>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <asp:Button ID="Button1" runat="server" Text="Filtro" Visible="false" UseSubmitBehavior="false" CssClass="btn pull-right" />
+                                                        <asp:Button ID="Button2" runat="server" Text="Nuovo" Visible="false" UseSubmitBehavior="false" CssClass="btn btn-success pull-right" />
+                                                    </div>
+                                                </div>
+                                               <asp:ObjectDataSource ID="ObjectDataSource1" runat="server"></asp:ObjectDataSource>
+
+                                            </asp:Panel>
                                             <!-- Pannello Workflow Associati Utente -->
 
                                             <asp:Panel ID="PanelWfAssociati" runat="server" Visible="false">

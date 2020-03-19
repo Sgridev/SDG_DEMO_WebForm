@@ -481,6 +481,51 @@ public partial class Web_Utenti_frm_MSB_UTE
     protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSourceAutorizzati;
 
     /// <summary>
+    /// Controllo PanelIndirizzi.
+    /// </summary>
+    /// <remarks>
+    /// Campo generato automaticamente.
+    /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Panel PanelIndirizzi;
+
+    /// <summary>
+    /// Controllo H1.
+    /// </summary>
+    /// <remarks>
+    /// Campo generato automaticamente.
+    /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+    /// </remarks>
+    protected global::System.Web.UI.HtmlControls.HtmlGenericControl H1;
+
+    /// <summary>
+    /// Controllo Button1.
+    /// </summary>
+    /// <remarks>
+    /// Campo generato automaticamente.
+    /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Button Button1;
+
+    /// <summary>
+    /// Controllo Button2.
+    /// </summary>
+    /// <remarks>
+    /// Campo generato automaticamente.
+    /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Button Button2;
+
+    /// <summary>
+    /// Controllo ObjectDataSource1.
+    /// </summary>
+    /// <remarks>
+    /// Campo generato automaticamente.
+    /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource1;
+
+    /// <summary>
     /// Controllo PanelWfAssociati.
     /// </summary>
     /// <remarks>

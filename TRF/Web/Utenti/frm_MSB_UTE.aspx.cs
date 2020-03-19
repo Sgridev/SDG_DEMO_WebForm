@@ -1122,10 +1122,28 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
     {
         showRuoli();
     }
-    
+
+    protected void ButtonIndirizzi_Click(object sender, EventArgs e)
+    {
+        ShowIndirizzi();
+    }
+
+    private void ShowIndirizzi()
+    {
+        resetPanelVisibility();
+
+        ButtonIndirizzi.CssClass = "tabSelected";
+
+        //Pannello Ruoli
+        PanelIndirizzi.Visible = true;
+
+ 
+    }
+
     protected void resetPanelVisibility()
     {
         ButtonRuoli.CssClass = "";
+        ButtonIndirizzi.CssClass = "";
 
         PanelRuoliUtente.Visible = false;
 
@@ -1142,7 +1160,10 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
         //Pannello Clienti Associati
         PanelCliAssociati.Visible = false;
         ButtonNuovoCliAssociato.Visible = false;
-        labelTitoloCliAssociati.Visible = false;        
+        labelTitoloCliAssociati.Visible = false;
+
+        //Pannello Indirizzi
+        PanelIndirizzi.Visible = false;
     }
 
     protected void showRuoli()
