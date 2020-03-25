@@ -365,19 +365,58 @@
                                                 <asp:ObjectDataSource ID="ObjectDataSourceAutorizzati" runat="server"></asp:ObjectDataSource>
 
                                             </asp:Panel>
-
-                                            <asp:Panel ID="PanelIndirizzi" runat="server" Visible="true">
+                                            <!-- Pannello Indirizzi Utente -->
+                                            <asp:Panel ID="PanelIndirizzi" runat="server" Visible="false">
 
                                                 <div class="row m-t-15 m-b-15">
                                                     <div class="col-md-6">
-                                                        <h3 id="H1" runat="server"></h3>
+                                                        <h3 id="LabelTitoloIndirizzoUtente" runat="server"></h3>
                                                     </div>
                                                     <div class="col-md-6">
-                                                        <asp:Button ID="Button1" runat="server" Text="Filtro" Visible="false" UseSubmitBehavior="false" CssClass="btn pull-right" />
-                                                        <asp:Button ID="Button2" runat="server" Text="Nuovo" Visible="false" UseSubmitBehavior="false" CssClass="btn btn-success pull-right" />
+                                                        <asp:Button ID="ButtonNuovoIndirizzoUtente" runat="server" Text="Nuovo" Visible="false" UseSubmitBehavior="false" CssClass="btn btn-success pull-right" />
                                                     </div>
                                                 </div>
-                                               <asp:ObjectDataSource ID="ObjectDataSource1" runat="server"></asp:ObjectDataSource>
+
+                                                <div class="row headerBrowser">
+                                                    <div class="col-md-12">
+                                                        <span runat="server" id="nroRecordIndirizziiUtente"></span>
+                                                        <asp:DropDownList ID="DropDownListRecPaginaIndirizzoUtente" runat="server" AutoPostBack="true" CssClass="custom-select" />
+                                                        <label id="LabelRecPaginaIndirizzoUtente" runat="server" for="DropDownListRecPagina"></label>
+                                                    </div>
+                                                </div>
+
+
+                                                <MyAsp:MyGridView ID="GridViewIndizziUtente" runat="server" AllowPaging="True" AllowSorting="True"
+                                                    CssClass="table table-hover table-bordered table-striped color-table success-table"
+                                                    AutoGenerateColumns="False" ColorMouseOverRow="">
+                                                    <Columns>
+                                                        <asp:TemplateField HeaderStyle-CssClass="colBtn">
+                                                            <ItemTemplate>
+                                                                <MyLinkButton:skmLinkButton CssClass="buttonRowBrowser" ID="ButtonDeleteRuoliUtenti" Text="X" runat="server" CommandName="DELETE_COMMAND" ConfirmMessage="DELETE RECORD?" ShowConfirm="True" StatusBarText="Deleting record" CausesValidation="False">
+                                                                </MyLinkButton:skmLinkButton>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+
+                                                        <asp:TemplateField HeaderStyle-CssClass="colBtn">
+                                                            <ItemTemplate>
+                                                                <asp:LinkButton ID="ButtonEditRuoliUtente" runat="server" />
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+
+                                                        <asp:BoundField DataField="INDIRIZZO" SortExpression="INDIRIZZO" />
+                                                        <asp:BoundField DataField="NUMERO_CIVICO" SortExpression="NUMERO_CIVICO" />
+                                                        <asp:BoundField DataField="TIPOLOGIA_INDIRIZZO" SortExpression="TIPOLOGIA_INDIRIZZO" />
+                                                        <asp:BoundField DataField="ATTIVO" SortExpression="ATTIVO" />
+                                                        <asp:BoundField DataField="DATA_DISABILITAZIONE" SortExpression="DATA_DISABILITAZIONE" />
+                                                    </Columns>
+
+                                                    <SelectedRowStyle CssClass="selectedRowGridView" />
+                                                    <PagerSettings Mode="NumericFirstLast" />
+                                                    <PagerStyle CssClass="GridViewPaginationLink" />
+
+                                                </MyAsp:MyGridView>
+
+                                                <asp:ObjectDataSource ID="ObjectDataSource1" runat="server"></asp:ObjectDataSource>
 
                                             </asp:Panel>
                                             <!-- Pannello Workflow Associati Utente -->

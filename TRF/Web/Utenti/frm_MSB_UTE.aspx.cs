@@ -117,6 +117,14 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
             //Griglia dei Clienti associati all'utente.
             GridViewCliAssociati.Columns[GridIndexOfByName(GridViewCliAssociati, "CLI_RAGIONE_SOCIALE")].HeaderText = GetValueDizionarioUI("AZIENDA");
 
+            //Griglia degli Indirizzi associati all'utente.
+            GridViewIndizziUtente.Columns[GridIndexOfByName(GridViewIndizziUtente, "INDIRIZZO")].HeaderText = GetValueDizionarioUI("INDIRIZZO");
+            GridViewIndizziUtente.Columns[GridIndexOfByName(GridViewIndizziUtente, "NUMERO_CIVICO")].HeaderText = GetValueDizionarioUI("NUMERO_CIVICO");
+            GridViewIndizziUtente.Columns[GridIndexOfByName(GridViewIndizziUtente, "TIPOLOGIA_INDIRIZZO")].HeaderText = GetValueDizionarioUI("TIPOLOGIA_INDIRIZZO");
+            GridViewIndizziUtente.Columns[GridIndexOfByName(GridViewIndizziUtente, "ATTIVO")].HeaderText = GetValueDizionarioUI("ATTIVO");
+            GridViewIndizziUtente.Columns[GridIndexOfByName(GridViewIndizziUtente, "DATA_DISABILITAZIONE")].HeaderText = GetValueDizionarioUI("DATA_DISABILITAZIONE");
+
+
             //Label
             LabelTitolo.InnerText = GetValueDizionarioUI("UTENTI");
             LabelElemSel.InnerText = GetValueDizionarioUI("ELEMENTI_SELEZIONATI");
@@ -125,6 +133,7 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
             LabelRecPaginaAutorizzati.InnerText = GetValueDizionarioUI("RECORD_PAGINA");
             LabelRecPaginaWfAssociati.InnerText = GetValueDizionarioUI("RECORD_PAGINA");
             LabelRecPaginaCliAssociati.InnerText = GetValueDizionarioUI("RECORD_PAGINA");
+            LabelRecPaginaIndirizzoUtente.InnerText = GetValueDizionarioUI("RECORD_PAGINA");
 
             //Pulsanti
             ButtonRuoli.Text = GetValueDizionarioUI("RUOLI");
@@ -180,6 +189,7 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
             GridViewAutorizzati.PageSize = Convert.ToInt32(DropDownListRecPaginaAutorizzati.SelectedValue);
             GridViewWfAssociati.PageSize = Convert.ToInt32(DropDownListRecPaginaWfAssociati.SelectedValue);
             GridViewCliAssociati.PageSize = Convert.ToInt32(DropDownListRecPaginaCliAssociati.SelectedValue);
+            GridViewIndizziUtente.PageSize = Convert.ToInt32(DropDownListRecPaginaIndirizzoUtente.SelectedValue);
 
             GridViewUtenti.DataBind();
         }        
@@ -322,9 +332,10 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
         btnRefresh.Click += new EventHandler(btnRefresh_Click);
 
         //DropDownList
-        GenerateDropDownListRecordPagina();
+        GenerateDropDownListRecordPagina();   
         GenerateDropDownListRecordPagina("DropDownListRecPaginaRuoloUtente");
         GenerateDropDownListRecordPagina("DropDownListRecPaginaAutorizzatori");
+        GenerateDropDownListRecordPagina("DropDownListRecPaginaIndirizzoUtente");
         GenerateDropDownListRecordPagina("DropDownListRecPaginaAutorizzati");
         GenerateDropDownListRecordPagina("DropDownListRecPaginaWfAssociati");
         GenerateDropDownListRecordPagina("DropDownListRecPaginaCliAssociati");
@@ -1026,12 +1037,14 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
             LabelTitoloAutorizzati.InnerText = GetValueDizionarioUI("AUTORIZZATI_DA") + ": " + GridViewUtenti.SelectedRow.Cells[GridIndexOfByName(GridViewUtenti, "UTE_COGNOME")].Text.ToString() + " " + GridViewUtenti.SelectedRow.Cells[GridIndexOfByName(GridViewUtenti, "UTE_NOME")].Text.ToString();
             labelTitoloWfAssociati.InnerText = GetValueDizionarioUI("WORKFLOW_ASSOCIATI") + ": " + GridViewUtenti.SelectedRow.Cells[GridIndexOfByName(GridViewUtenti, "UTE_COGNOME")].Text.ToString() + " " + GridViewUtenti.SelectedRow.Cells[GridIndexOfByName(GridViewUtenti, "UTE_NOME")].Text.ToString();
             labelTitoloCliAssociati.InnerText = GetValueDizionarioUI("CLIENTI_ASSOCIATI") + ": " + GridViewUtenti.SelectedRow.Cells[GridIndexOfByName(GridViewUtenti, "UTE_COGNOME")].Text.ToString() + " " + GridViewUtenti.SelectedRow.Cells[GridIndexOfByName(GridViewUtenti, "UTE_NOME")].Text.ToString();
+            LabelTitoloIndirizzoUtente.InnerText = $"{GetValueDizionarioUI("INDIRIZZI")} : {GridViewUtenti.SelectedRow.Cells[GridIndexOfByName(GridViewUtenti, "UTE_COGNOME")].Text} {GridViewUtenti.SelectedRow.Cells[GridIndexOfByName(GridViewUtenti, "UTE_NOME")].Text}"; 
 
             hIdCliente.Value = GridViewUtenti.DataKeys[GridViewUtenti.SelectedIndex].Values["CLI_ID_CLIENTE"].ToString();
             hIdUtente.Value = GridViewUtenti.DataKeys[GridViewUtenti.SelectedIndex].Values["UTE_ID_UTENTE"].ToString();
 
             //Rendo visibili tutti i pulsanti Nuovo
             ButtonNuovoRuoloUtente.Visible = true;
+            ButtonNuovoIndirizzoUtente.Visible = true;
         }                        
         
     }
@@ -1134,10 +1147,17 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
 
         ButtonIndirizzi.CssClass = "tabSelected";
 
-        //Pannello Ruoli
+        //Pannello Indirizzi
         PanelIndirizzi.Visible = true;
 
- 
+
+        //Controllo che un utente sia selezionato prima di far vedere il pulsante nuovo.
+        if (GridViewUtenti.SelectedIndex != -1)
+        {
+            ButtonNuovoIndirizzoUtente.Visible = true;
+            LabelTitoloIndirizzoUtente.Visible = true;         
+        }
+            GridViewIndizziUtente.DataBind();
     }
 
     protected void resetPanelVisibility()

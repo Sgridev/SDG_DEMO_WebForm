@@ -490,31 +490,58 @@ public partial class Web_Utenti_frm_MSB_UTE
     protected global::System.Web.UI.WebControls.Panel PanelIndirizzi;
 
     /// <summary>
-    /// Controllo H1.
+    /// Controllo LabelTitoloIndirizzoUtente.
     /// </summary>
     /// <remarks>
     /// Campo generato automaticamente.
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlGenericControl H1;
+    protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelTitoloIndirizzoUtente;
 
     /// <summary>
-    /// Controllo Button1.
+    /// Controllo ButtonNuovoIndirizzoUtente.
     /// </summary>
     /// <remarks>
     /// Campo generato automaticamente.
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.Button Button1;
+    protected global::System.Web.UI.WebControls.Button ButtonNuovoIndirizzoUtente;
 
     /// <summary>
-    /// Controllo Button2.
+    /// Controllo nroRecordIndirizziiUtente.
     /// </summary>
     /// <remarks>
     /// Campo generato automaticamente.
     /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.Button Button2;
+    protected global::System.Web.UI.HtmlControls.HtmlGenericControl nroRecordIndirizziiUtente;
+
+    /// <summary>
+    /// Controllo DropDownListRecPaginaIndirizzoUtente.
+    /// </summary>
+    /// <remarks>
+    /// Campo generato automaticamente.
+    /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.DropDownList DropDownListRecPaginaIndirizzoUtente;
+
+    /// <summary>
+    /// Controllo LabelRecPaginaIndirizzoUtente.
+    /// </summary>
+    /// <remarks>
+    /// Campo generato automaticamente.
+    /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+    /// </remarks>
+    protected global::System.Web.UI.HtmlControls.HtmlGenericControl LabelRecPaginaIndirizzoUtente;
+
+    /// <summary>
+    /// Controllo GridViewIndizziUtente.
+    /// </summary>
+    /// <remarks>
+    /// Campo generato automaticamente.
+    /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+    /// </remarks>
+    protected global::MyGridViewLibrary.MyGridView GridViewIndizziUtente;
 
     /// <summary>
     /// Controllo ObjectDataSource1.
