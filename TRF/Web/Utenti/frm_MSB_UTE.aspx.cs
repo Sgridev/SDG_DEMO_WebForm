@@ -149,6 +149,7 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
             ButtonNuovoWfAssociato.Text = GetValueDizionarioUI("AGGIUNGI");
             ButtonFiltroCliAssociati.Text = GetValueDizionarioUI("FILTRO");
             ButtonNuovoCliAssociato.Text = GetValueDizionarioUI("AGGIUNGI");
+            ButtonNuovoIndirizzoUtente.Text = GetValueDizionarioUI("AGGIUNGI");
 
             btnCerca.Text = GetValueDizionarioUI("CERCA");
             LabelCognome.InnerText = GetValueDizionarioUI("COGNOME");
@@ -1401,6 +1402,20 @@ public partial class Web_Utenti_frm_MSB_UTE : BasePageBrowser
                 ButtonNuovoCliAssociato.Attributes["onClick"] = chiamata;
                 ButtonNuovoCliAssociato.Attributes["data-toggle"] = "modal";
                 ButtonNuovoCliAssociato.Attributes["data-target"] = "#modalPage";
+            }
+
+            if (allowEdit)
+            {
+                //Recupero l'ID della riga selezionata nella griglia Utente.
+                //Se esiste allora creo il path da passare ai pulsanti del Browser di dettaglio.
+                int indexRowSelected = GridViewUtenti.SelectedIndex;
+                if (indexRowSelected > -1)
+                    percorso = @"../Indirizzi/frm_MSE_IND_UTE.aspx?MODALITA=NEW&PROVENIENZA=UTE&UTE_ID_UTENTE=" + (GridViewUtenti.DataKeys[indexRowSelected].Values["UTE_ID_UTENTE"]);
+
+                chiamata = "javascript:openModal('" + percorso + "','IND');return false;";
+                ButtonNuovoIndirizzoUtente.Attributes["onClick"] = chiamata;
+                ButtonNuovoIndirizzoUtente.Attributes["data-toggle"] = "modal";
+                ButtonNuovoIndirizzoUtente.Attributes["data-target"] = "#modalPage";
             }
         }
         catch (Exception ex)

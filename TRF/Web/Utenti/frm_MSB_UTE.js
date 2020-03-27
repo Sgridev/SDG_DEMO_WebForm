@@ -15,6 +15,9 @@ function openModal(url, acronimo) {
         case "UTE_WRF":
             $("#iframeEditorModal").attr("height", "350px");
             break;
+        case "IND":
+            $("#iframeEditorModal").attr("height", "400px");
+            break;
     }
     $(".modal-dialog").addClass("modal-xl");
     $(".modal-dialog").removeClass("modal-lg");

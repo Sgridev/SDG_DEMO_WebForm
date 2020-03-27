@@ -232,6 +232,7 @@
     <Content Include="Web\Images\Loghi\sdg.png" />
     <Content Include="Web\Images\logoMail.jpg" />
     <Content Include="Web\Images\upload.png" />
+    <Content Include="Web\Indirizzi\frm_MSE_IND_UTE.aspx" />
     <Content Include="Web\JScript\autoNumeric.js" />
     <Content Include="Web\JScript\custom.min.js" />
     <Content Include="Web\JScript\ics.deps.min.js" />
@@ -430,6 +431,13 @@
     </Compile>
     <Compile Include="Web\CrossGruppiClienteUtenti\frm_MSE_CGC.aspx.designer.cs">
       <DependentUpon>frm_MSE_CGC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Indirizzi\frm_MSE_IND_UTE.aspx.cs">
+      <DependentUpon>frm_MSE_IND_UTE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Indirizzi\frm_MSE_IND_UTE.aspx.designer.cs">
+      <DependentUpon>frm_MSE_IND_UTE.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web\Login\frm_LGN.aspx.designer.cs">
       <DependentUpon>frm_LGN.aspx</DependentUpon>
@@ -692,7 +700,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="obj\" />
-    <Folder Include="Web\Indirizzi\" />
     <Folder Include="Web\UserFiles\" />
     <Folder Include="Web\Utenti\Files\" />
   </ItemGroup>
