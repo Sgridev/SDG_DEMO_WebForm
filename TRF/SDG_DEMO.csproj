@@ -335,6 +335,7 @@
     <Compile Include="BusinessObjects\CrossGruppiClienteUtenti.cs" />
     <Compile Include="BusinessObjects\GruppiCliente.cs" />
     <Compile Include="BusinessObjects\Lookup_societa_cliente.cs" />
+    <Compile Include="BusinessObjects\Lookup_tipo_indirizzo.cs" />
     <Compile Include="BusinessObjects\RichiestaViaggio.cs" />
     <Compile Include="BusinessObjects\Utility\Encrypt.cs" />
     <Compile Include="BusinessObjects\WorkflowAzioniCases.cs" />

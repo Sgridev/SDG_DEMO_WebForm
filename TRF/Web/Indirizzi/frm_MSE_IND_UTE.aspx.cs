@@ -25,6 +25,7 @@ using SDG.GestioneUtenti;
 using SDG.GestioneUtenti.Web;
 using Microsoft.Practices.EnterpriseLibrary.ExceptionHandling;
 using SDG.WorkFlow;
+using SDG_DEMO.BusinessObjects;
 
 public partial class Web_Ruoli_frm_MSE_IND_UTE : BasePage
 {
@@ -78,23 +79,16 @@ public partial class Web_Ruoli_frm_MSE_IND_UTE : BasePage
                 Label_attivo.InnerText = GetValueDizionarioUI("ATTIVO");
                 Label_note.InnerText = GetValueDizionarioUI("NOTE");
 
-                //Lookup
-                //Non deve essere possibile aggiungere come ruolo ad un utente qualsiasi l'utente admin
-                objRuoli.SqlWhereClause = " WHERE RUL_ID_RUOLO <> 1 AND RUL_ID_RUOLO IN(SELECT RUL_ID_RUOLO FROM CROSS_CLIENTE_RUOLI WHERE CLI_ID_CLIENTE=" + objUtente.Cli_id_cliente.Value + ") ";
-                objRuoli.SqlWhereClause += " AND  (RUL_ID_RUOLO NOT IN (SELECT RUL_ID_RUOLO FROM RUOLI_UTENTE WHERE UTE_ID_UTENTE = " + qUTE_ID_UTENTE + ") ";
-                if (qMODALITA != "NEW")
-                    objRuoli.SqlWhereClause += " OR RUL_ID_RUOLO IN(SELECT RUL_ID_RUOLO FROM RUOLI_UTENTE WHERE UTE_ID_UTENTE = " + qUTE_ID_UTENTE + " AND URL_ID_RUOLI_UTENTE = " + qURL_ID_RUOLI_UTENTE + ") ";
-                objRuoli.SqlWhereClause += ") ";
+                Lookup_tipo_indirizzo lookup_Tipo_Indirizzo = new Lookup_tipo_indirizzo();
+                Dropdown_tipologia_indirizzo.DataSource = lookup_Tipo_Indirizzo.GetLookupTipoIndirizzo("LOOKUP_TIPO_INDIRIZZO");
+                Dropdown_tipologia_indirizzo.DataValueField = "LTI_TIPO_INDIRIZZO";
+                Dropdown_tipologia_indirizzo.DataTextField = "LTI_TIPO_INDIRIZZO";
+                Dropdown_tipologia_indirizzo.DataBind();
+
+
 
 
             }
-
-            if (qUTE_ID_UTENTE != 0)
-                objUtente.SqlWhereClause = " WHERE UTE_ID_UTENTE = " + qUTE_ID_UTENTE;
-
-            dsUtenti = objUtente.getListDropDownAbil();
-
-
 
 
             //Registrazioni javascript                
@@ -192,20 +186,7 @@ public partial class Web_Ruoli_frm_MSE_IND_UTE : BasePage
     /// Per refresh chiamante
     /// </summary>
     /// <returns></returns>
-    public string strChiamante()
-    {
-        string percorso = "";
 
-        switch (qPROVENIENZA)
-        {
-
-            case "UTE":
-                percorso = @"../Utenti/frm_MSB_UTE.aspx?PANEL=PanelRuoliUtente&UTE_ID_UTENTE=" + qUTE_ID_UTENTE.ToString();
-                break;
-        }
-
-        return percorso;
-    }
 
     public string CloseDialog_Js()
     {
