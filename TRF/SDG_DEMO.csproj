@@ -333,7 +333,9 @@
     <Compile Include="BusinessObjects\Allegati.cs" />
     <Compile Include="BusinessObjects\Clienti.cs" />
     <Compile Include="BusinessObjects\CrossGruppiClienteUtenti.cs" />
+    <Compile Include="BusinessObjects\CrossUtenteIndirizzi.cs" />
     <Compile Include="BusinessObjects\GruppiCliente.cs" />
+    <Compile Include="BusinessObjects\Indirizzi.cs" />
     <Compile Include="BusinessObjects\Lookup_societa_cliente.cs" />
     <Compile Include="BusinessObjects\Lookup_tipo_indirizzo.cs" />
     <Compile Include="BusinessObjects\RichiestaViaggio.cs" />

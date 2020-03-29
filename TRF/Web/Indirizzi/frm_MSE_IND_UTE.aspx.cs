@@ -20,7 +20,6 @@
 using System;
 using System.Data;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 using SDG.GestioneUtenti;
 using SDG.GestioneUtenti.Web;
 using Microsoft.Practices.EnterpriseLibrary.ExceptionHandling;
@@ -30,13 +29,11 @@ using SDG_DEMO.BusinessObjects;
 public partial class Web_Ruoli_frm_MSE_IND_UTE : BasePage
 {
     #region Web Form Control declarations
-    protected Ruoli objRuoli;
     protected Utente objUtente;
     protected RuoliUtente objRuoli_utente;
     protected Workflow objWorkflow;
 
     //PAGE VARIABLES
-    //protected int qRUL_ID_RUOLO;
     protected int qUTE_ID_UTENTE;
     protected int qURL_ID_RUOLI_UTENTE;
     protected string qPROVENIENZA;
@@ -135,9 +132,7 @@ public partial class Web_Ruoli_frm_MSE_IND_UTE : BasePage
     override protected void OnInit(EventArgs e)
     {
         InitializeMyComponents();
-        objRuoli = new Ruoli();
         objUtente = new Utente();
-        objRuoli_utente = new RuoliUtente();
         objWorkflow = new Workflow();
 
         base.OnInit(e);
